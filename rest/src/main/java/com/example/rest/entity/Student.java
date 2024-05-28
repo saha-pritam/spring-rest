@@ -20,9 +20,10 @@ public class Student {
 	private String lastName;
 	public Student() {
 	}
-	@Override
-	public String toString() {
-		return "Student [firstName=" + firstName + ", lastName=" + lastName + "]";
+	public Student(String firstName, String lastName) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
 	}
 	public int getId() {
 		return id;
